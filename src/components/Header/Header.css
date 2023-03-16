@@ -1,0 +1,25 @@
+/* HEADER CSS */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.logo {
+  width: 10rem;
+  height: auto;
+  margin: -2rem -1rem;
+}
+.header-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.header-menu > li {
+  cursor: pointer;
+  transition: 0.1s ease all;
+}
+.header-menu > li:hover {
+  color: orange;
+  /* font-size: 1.1rem; */
+}

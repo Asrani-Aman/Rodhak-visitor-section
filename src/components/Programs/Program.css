@@ -1,0 +1,76 @@
+.programs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+.programs-header {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.program-image {
+  object-fit: contain;
+  position: relative;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-5%);
+}
+.program-image svg {
+  object-fit: contain;
+  height: 2rem;
+  width: 2rem;
+
+  fill: white;
+}
+.program-categories {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1rem 1.5rem;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  padding: 2rem;
+  gap: 1rem;
+  color: white;
+  width: 30%;
+  justify-content: space-between;
+}
+.category > :nth-child(2) {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+.category > :nth-child(2) :hover {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.category > :nth-child(3) {
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+
+.join-now {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.join-now > img {
+  width: 1rem;
+}
+.category:hover {
+  background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  cursor: pointer;
+}

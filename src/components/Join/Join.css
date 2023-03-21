@@ -1,0 +1,52 @@
+.join {
+  display: flex;
+  padding: 0 2rem;
+  /* justify-content: space-around; */
+  gap: 10rem;
+}
+.left-j {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  align-self: flex-start;
+  flex: 1 1;
+}
+.left-j > hr {
+  position: absolute;
+  width: 10.5rem;
+  border: 2px solid #f48915;
+  border-radius: 20%;
+  margin: -10px 0;
+}
+.left-j > div {
+  display: flex;
+  gap: 1rem;
+}
+.right-j {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-self: flex-start;
+  flex: 1 1;
+}
+.email-container {
+  display: flex;
+  gap: 3rem;
+  background-color: gray;
+  padding: 1rem 2rem;
+}
+.email-container > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #d9d9d9;
+}
+::placeholder {
+  color: #d9d9d9;
+}
+.btn-join {
+  background-color: #f48915;
+  color: white;
+}

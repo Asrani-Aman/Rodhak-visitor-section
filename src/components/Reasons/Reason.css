@@ -58,7 +58,7 @@
 .details-r {
   display: flex;
   flex-direction: column;
-  gap: 2.5 rem;
+  gap: 2.5rem;
 }
 .details-r > div {
   font-size: 1rem;

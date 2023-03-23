@@ -8,6 +8,7 @@ import HeroImageBack from "../../assets/hero_image_back.png";
 const Hero = () => {
   return (
     <div className="hero">
+      <div className="blur hero-blur"></div>
       <div className="left-h">
         <Header />
 

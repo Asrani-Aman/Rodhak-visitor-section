@@ -140,7 +140,13 @@
 .hero-image-back {
   position: absolute;
   top: 13rem;
-  right: 21rem;
+  right: 20rem;
   z-index: 1;
   width: 15rem;
+}
+.hero-blur {
+  width: 22rem;
+  height: 30rem;
+  left: 0;
+  top: 10rem;
 }

@@ -150,3 +150,65 @@
   left: 0;
   top: 10rem;
 }
+
+@media screen and (max-width: 786px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-blur {
+    width: 14rem;
+  }
+  .the-best-ad {
+    margin-top: 0;
+    font-size: small;
+    align-self: center;
+    transform: scale(0.8);
+  }
+  .hero-text {
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-text > :nth-child(3) > span {
+    font-size: 0.7rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .hero-buttons {
+    justify-content: center;
+  }
+  .figures > div > span:nth-child(1) {
+    font-size: large;
+  }
+  .figures > div > span:nth-child(2) {
+    font-size: small;
+  }
+  .right-h {
+    position: relative;
+    background: none;
+  }
+  .tracking-icon {
+    left: 1rem;
+    z-index: 1;
+    top: 0rem;
+  }
+  /* .tracking-icon > img {
+    width: 1.7rem;
+    align-self: center;
+  } */
+  .hero-image {
+    position: relative;
+    width: 15rem;
+    left: 7rem;
+    top: 4rem;
+    align-self: center;
+  }
+  .hero-image-back {
+    width: 10rem;
+    left: 3rem;
+    top: 1rem;
+    z-index: 0;
+    /* position: relative; */
+  }
+}

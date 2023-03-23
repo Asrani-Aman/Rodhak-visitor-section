@@ -5,6 +5,7 @@ import TrackingIcon from "../../assets/TrackingIcon.png";
 import HeroImage from "../../assets/06e8cf5a-d252-464c-9a73-2bb773e98482-removebg-preview.png";
 import HeroImageBack from "../../assets/hero_image_back.png";
 import { motion } from "framer-motion";
+import NumberCounter from "number-counter";
 
 const Hero = () => {
   const transition = { type: "spring", duration: 2.5 };

@@ -12,7 +12,7 @@ const Testimonial = () => {
 
   return (
     <div>
-      <div className="testimonials">
+      <div className="testimonials" id="testimonials">
         <div className="left-t">
           <span>Testimonial</span>
           <span className="stroke-text">What They </span>

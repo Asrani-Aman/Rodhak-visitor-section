@@ -52,15 +52,21 @@ const Hero = () => {
         {/* figures */}
         <div className="figures">
           <div>
-            <span>14+</span>
+            <span>
+              <NumberCounter end={150} start={100} delay="5" preFix="+" />
+            </span>
             <span>Transport Comapnies</span>
           </div>
           <div>
-            <span>1.4k+</span>
+            <span>
+              <NumberCounter end={550} start={400} delay="5" preFix="+" />
+            </span>
             <span>Buses & Trucks</span>
           </div>
           <div>
-            <span>2k+</span>
+            <span>
+              <NumberCounter end={1550} start={1400} delay="5" preFix="+" />
+            </span>
             <span>personal vechiles</span>
           </div>
         </div>

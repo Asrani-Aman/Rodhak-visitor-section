@@ -4,8 +4,11 @@ import "./hero.css";
 import TrackingIcon from "../../assets/TrackingIcon.png";
 import HeroImage from "../../assets/06e8cf5a-d252-464c-9a73-2bb773e98482-removebg-preview.png";
 import HeroImageBack from "../../assets/hero_image_back.png";
+import { motion } from "framer-motion";
 
 const Hero = () => {
+  const transition = { type: "spring", duration: 3 };
+
   return (
     <div className="hero">
       <div className="blur hero-blur"></div>
@@ -14,7 +17,11 @@ const Hero = () => {
 
         {/* the best ad */}
         <div className="the-best-ad">
-          <div></div>
+          <motion.div
+            initial={{ left: "138px" }}
+            whileInView={{ left: "8px" }}
+            transition={{ ...transition, type: "tween" }}
+          ></motion.div>
           <span>The best Tracking App</span>
         </div>
 
@@ -67,18 +74,26 @@ const Hero = () => {
 
       <div className="right-h">
         <button className="btn">Start for Free</button>
-        <div className="tracking-icon">
+        <motion.div
+          className="tracking-icon"
+          initial={{ right: "-1rem" }}
+          whileInView={{ right: "4rem" }}
+          transition={transition}
+        >
           <img src={TrackingIcon} alt="tracking icon"></img>
           <span>Tracking</span>
-        </div>
+        </motion.div>
         {/* hero images */}
 
         <img src={HeroImage} alt="heroimage" className="hero-image"></img>
-        <img
+        <motion.img
+          initial={{ right: "11rem" }}
+          whileInView={{ right: "20rem" }}
+          transition={transition}
           src={HeroImageBack}
           className="hero-image-back"
           alt="hero imageback"
-        ></img>
+        ></motion.img>
       </div>
     </div>
   );

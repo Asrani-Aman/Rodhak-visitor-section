@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/06e8cf5a-d252-464c-9a73-2bb773e98482-removebg-preview.png";
+import Logo from "../../assets/Armaan.png";
 import Bars from "../../assets/bars.png";
 import { useState } from "react";
 import "./Header.css";
@@ -24,9 +24,7 @@ const Header = () => {
           <li onClick={() => setMenuOpened(false)}>Programs</li>
           <li onClick={() => setMenuOpened(false)}>Why us</li>
           <li onClick={() => setMenuOpened(false)}>Plans</li>
-          <li onClick={() => setMenuOpened(false)}>
-            <a href="testimonials">Testimonials</a>
-          </li>
+          <li onClick={() => setMenuOpened(false)}>Testimonial</li>
         </ul>
       )}
     </div>

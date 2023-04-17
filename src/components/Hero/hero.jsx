@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import "./hero.css";
 import TrackingIcon from "../../assets/TrackingIcon.png";
-import HeroImage from "../../assets/06e8cf5a-d252-464c-9a73-2bb773e98482-removebg-preview.png";
+import Logo from "../../assets/Armaan.png";
 import HeroImageBack from "../../assets/hero_image_back.png";
 import { motion } from "framer-motion";
 import NumberCounter from "number-counter";
@@ -31,20 +31,21 @@ const Hero = () => {
         <div className="hero-text">
           <div>
             <span className="stroke-text">Track </span>
-            <span>Your</span>
-          </div>
-          <div>
-            <span>Vechile/Bus </span>
+            <span>My Bus</span>
           </div>
           <div>
             <span>
-              D'n'D Rodhak is a budding start-up striving to make roads safer
-              for everyone. We aim to deliver smart user-friendly products that
-              understand several dimensions of driver's behaviour, especially
-              accounting for one's inebriated or sleepy state, to ensure
-              driver's physical and mental capacity to drive, by leveraging
-              state-of-the-art technologies such as the internet of things and
-              artificial intelligence.
+              TBoard your bus comfortably without a hassle and share the journey
+              link with your loved ones to give them a peace of mind{" "}
+            </span>
+          </div>
+          <div>
+            <span>
+              HimRaahi (formerly D'n'D Rodhak) is a budding startup based in
+              Himachal Pradesh striving to make roads safer for everyone by
+              inculcating healthy driving practices among drivers. We offer
+              control to the vehicle fleet owners and safeguard their assets and
+              resources to maximize their profits.
             </span>
           </div>
         </div>
@@ -93,7 +94,7 @@ const Hero = () => {
         </motion.div>
         {/* hero images */}
 
-        <img src={HeroImage} alt="heroimage" className="hero-image"></img>
+        <img src={Logo} alt="heroimage" className="hero-image"></img>
         <motion.img
           initial={{ right: "11rem" }}
           whileInView={{ right: "20rem" }}

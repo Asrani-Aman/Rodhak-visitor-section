@@ -3,7 +3,7 @@ import "./footer.css";
 import Instagram from "../../assets/instagram.png";
 import Github from "../../assets/github.png";
 import LinkedIn from "../../assets/linkedin.png";
-import Logo from "../../assets/06e8cf5a-d252-464c-9a73-2bb773e98482-removebg-preview.png";
+import Logo from "../../assets/Armaan.png";
 const Footer = () => {
   return (
     <div className="footer-container">

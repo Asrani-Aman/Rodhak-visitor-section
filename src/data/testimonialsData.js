@@ -1,25 +1,47 @@
-import Testimonialimg from "../assets/testimonialmrigu.jpeg";
-import Testimonialimg2 from "../assets/images-6.jpeg";
+import Mrigu from "../assets/Testimonial/testimonialmrigu.jpeg";
+import Asrani from "../assets/images-6.jpeg";
+import Pranay from "../assets/Testimonial/pranayBhaiya.jpg";
+import Chaitanya from "../assets/Testimonial/Bhopal.JPG";
+import Armaan from "../assets/Testimonial/e131b2f1-415e-44b0-a28a-620cf5cb9dba.JPG";
+import Dharuva from "../assets/Testimonial/Dharuva.JPG";
 export const testimonialsData = [
   {
-    image: Testimonialimg,
-    review:
-      "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
-    name: "MATHEW HENDRICKSON",
-    status: "ENTREPRENEUR",
+    image: Pranay,
+    review: "Now everyone knows “Bus kahan pahunchi aur kitni der me aayegi”",
+    name: "PRANAY BHAIYA",
+    status: "CEO",
   },
   {
-    image: Testimonialimg,
+    image: Mrigu,
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ",
-    name: "JOHN KEVIN",
-    status: "COACH",
+      "Manage your businesses efficiently making use of the analytics and reports to cut down those unnecessary spendings",
+    name: "MRIGESH THAKUR",
+    status: "DEVELOPER",
   },
   {
-    image: Testimonialimg2,
+    image: Asrani,
+    review: " Ensure safety of your loved ones because it’s never too late",
+    name: "AMAN ASRANI",
+    status: "HARE KRISHNA",
+  },
+  {
+    image: Armaan,
+    review: " Ensure safety of your loved ones because it’s never too late",
+    name: "ARMAAN SHUKLA",
+    status: "HARE KRISHNA",
+  },
+  {
+    image: Dharuva,
     review:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem",
-    name: "FRANKLIN",
-    status: "CUSTOMER",
+      " Don’t waste time at the bus stops if the school bus is not on time",
+    name: "DHARUVA THAKUR",
+    status: "HARE KRISHNA",
+  },
+  {
+    image: Chaitanya,
+    review:
+      "It has become so convenient to manage businesses leveraging the power of our innovative solutions that never existed before",
+    name: "CHAITANYA BHOPAL",
+    status: "HARE KRISHNA",
   },
 ];

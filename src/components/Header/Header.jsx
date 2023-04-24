@@ -2,6 +2,8 @@ import React from "react";
 import Logo from "../../assets/Armaan.png";
 import Bars from "../../assets/bars.png";
 import { useState } from "react";
+import Logo2 from "../../assets/LOGO@.png";
+
 import "./Header.css";
 const Header = () => {
   const Mobile = window.innerWidth <= 768 ? true : false;
@@ -9,7 +11,7 @@ const Header = () => {
 
   return (
     <div className="header">
-      <img src={Logo} className="logo" alt="logo" />
+      <img src={Logo2} className="logo" alt="logo" />
       {menuOpened === false && Mobile === true ? (
         <div onClick={() => setMenuOpened(true)}>
           <img

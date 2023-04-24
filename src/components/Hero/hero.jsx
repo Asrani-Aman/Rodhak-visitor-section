@@ -6,7 +6,7 @@ import Logo from "../../assets/Armaan.png";
 import HeroImageBack from "../../assets/hero_image_back.png";
 import { motion } from "framer-motion";
 import NumberCounter from "number-counter";
-
+import LOGO2 from "../../assets/LOGO@.png";
 const Hero = () => {
   const transition = { type: "spring", duration: 2.5 };
   const mobile = window.innerWidth <= 768 ? true : false;
@@ -94,7 +94,7 @@ const Hero = () => {
         </motion.div>
         {/* hero images */}
 
-        <img src={Logo} alt="heroimage" className="hero-image"></img>
+        <img src={LOGO2} alt="heroimage" className="hero-image"></img>
         <motion.img
           initial={{ right: "11rem" }}
           whileInView={{ right: "20rem" }}

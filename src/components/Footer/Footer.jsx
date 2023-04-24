@@ -4,6 +4,7 @@ import Instagram from "../../assets/instagram.png";
 import Github from "../../assets/github.png";
 import LinkedIn from "../../assets/linkedin.png";
 import Logo from "../../assets/Armaan.png";
+import LOGO from "../../assets/Logo.jpg";
 const Footer = () => {
   return (
     <div className="footer-container">
@@ -15,7 +16,7 @@ const Footer = () => {
           <img src={Instagram} alt="InstagramImg"></img>
         </div>
         <div className="logo-f">
-          <img src={Logo} alt="LogoImg"></img>
+          <img src={LOGO} alt="LogoImg"></img>
         </div>
       </div>
 

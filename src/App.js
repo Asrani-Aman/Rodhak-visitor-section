@@ -5,16 +5,18 @@ import Join from "./components/Join/Join";
 import Program from "./components/Programs/Program";
 import Reason from "./components/Reasons/Reason";
 import Testimonial from "./components/Testimonials/Testimonial";
-
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Hero />
-      <Program />
-      <Reason />
-      <Testimonial />
-      <Join />
-      <Footer />
+      <BrowserRouter>
+        <Hero />
+        <Program />
+        <Reason />
+        <Testimonial />
+        <Join />
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

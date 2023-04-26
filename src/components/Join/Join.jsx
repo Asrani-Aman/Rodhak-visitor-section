@@ -8,7 +8,7 @@ const Join = () => {
 
     emailjs
       .sendForm(
-        "service_y3o56mk",
+        "service_y3o56mk2",
         "template_2upjxeq",
         form.current,
         "HfZdyzUeHX7YzWnAt"

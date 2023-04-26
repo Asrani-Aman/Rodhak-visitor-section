@@ -7,7 +7,7 @@ import Logo from "../../assets/Armaan.png";
 import LOGO from "../../assets/Logo.jpg";
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="footer">
       <hr />
       <div className="footer">
         <div className="social-links">

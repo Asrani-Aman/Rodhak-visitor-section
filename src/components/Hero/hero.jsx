@@ -12,7 +12,7 @@ const Hero = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
 
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="blur hero-blur"></div>
       <div className="left-h">
         <Header />
@@ -74,8 +74,8 @@ const Hero = () => {
         {/* hero buttons */}
 
         <div className="hero-buttons">
-          <buttons className="btn">Get Started</buttons>
-          <buttons className="btn">Learn More</buttons>
+          <button className="btn">Get Started</button>
+          <button className="btn">Learn More</button>
         </div>
       </div>
 

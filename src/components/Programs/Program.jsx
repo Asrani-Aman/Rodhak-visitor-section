@@ -5,7 +5,7 @@ import { programsData } from "../../data/Programs/programsData";
 
 const Program = () => {
   return (
-    <div className="Programs" id="progra ms">
+    <div className="Programs" id="programs">
       <div className="programs-header">
         <span className="stroke-text">Explore our</span>
         <span>Facilities</span>
@@ -13,9 +13,9 @@ const Program = () => {
       </div>
 
       <div className="program-categories">
-        {programsData.map((program) => {
+        {programsData.map((program, index) => {
           return (
-            <div className="category">
+            <div className="category" key={index}>
               <span className="program-image">{program.image}</span>
 
               <span>{program.heading}</span>

@@ -7,6 +7,9 @@ make variables :root {
   --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
   --appColor: #3c3f45;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .App {
   /* mix-blend-mode: overlay; */
@@ -44,4 +47,11 @@ make variables :root {
 
   filter: blur(225px);
   z-index: 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #f48915;
 }

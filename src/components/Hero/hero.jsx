@@ -74,7 +74,9 @@ const Hero = () => {
         {/* hero buttons */}
 
         <div className="hero-buttons">
-          <button className="btn">Get Started</button>
+          <a href="https://rodhak-public-view.onrender.com">
+            <button className="btn">Get Started</button>
+          </a>
           <button className="btn">Learn More</button>
         </div>
       </div>

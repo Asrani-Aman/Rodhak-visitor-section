@@ -26,7 +26,7 @@ const Header = () => {
           <li onClick={() => setMenuOpened(false)}>
             {" "}
             <a href="#hero" span="true" smooth="true">
-              HERO
+              MAIN
             </a>
           </li>
           <li onClick={() => setMenuOpened(false)}>

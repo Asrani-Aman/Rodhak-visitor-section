@@ -19,6 +19,7 @@ export const programsData = [
     heading: "Owner Section",
     details:
       "All the Owners of the transportation company required to login here",
+    link: "https://rodhak-public-view.onrender.com",
   },
   {
     image: (
@@ -39,6 +40,7 @@ export const programsData = [
     heading: "Driver Section",
     details:
       "All the driver Here to view all the details and to update the profile and status ",
+    link: "https://rodhak-public-view.onrender.com",
   },
   {
     image: (
@@ -53,5 +55,6 @@ export const programsData = [
     ),
     heading: "Check Bus Status",
     details: "You can check the bus status of any bus from here ",
+    link: "https://rodhak-public-view.onrender.com",
   },
 ];
